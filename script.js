@@ -7,5 +7,5 @@ function checkUserInput () {
 }
 
 convertBtn.addEventListener('click', () => {
-    checkUserInput
+    checkUserInput()
 })
