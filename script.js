@@ -3,5 +3,7 @@ const convertBtn = document.getElementById('convert-btn')
 const result = document.getElementById('result')
 
 function checkUserInput () {
-    
+    console.log(numberInput.value)
 }
+
+checkUserInput()
