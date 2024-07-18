@@ -6,4 +6,6 @@ function checkUserInput () {
     console.log(numberInput.value)
 }
 
-checkUserInput()
+convertBtn.addEventListener('click', () => {
+    checkUserInput
+})
