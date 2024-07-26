@@ -3,11 +3,13 @@ const convertBtn = document.getElementById('convert-btn')
 const result = document.getElementById('result')
 
 const checkUserInput = () => {
-    if (!numberInput.value || isNaN(parseInt(numberInput.value)) || (parseInt(numberInput.value) < 0)) {
+    const numValue = parseInt(numberInput.value)
+    if (!numberInput.value || isNaN(numValue) || numValue < 0) {
         alert("Please provide a decimal number greater than or equal to 0")
         return
     } 
-    decimalToBinary(parseInt(numberInput.value))
+    decimalToBinary(numValue)
+    numberInput.value = "";
 }
 
 convertBtn.addEventListener('click', checkUserInput)
