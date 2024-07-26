@@ -3,9 +3,9 @@ const convertBtn = document.getElementById('convert-btn')
 const result = document.getElementById('result')
 
 const checkUserInput = () => {
-    console.log(numberInput.value)
-    if (!numberInput.value || isNaN(parseInt(numberInput.value)) || numberInput > 0) {
-
+   
+    if (!numberInput.value || isNaN(parseInt(numberInput.value)) || (parseInt(numberInput.value) < 0)) {
+        console.log(numberInput.value)
     }
 }
 
