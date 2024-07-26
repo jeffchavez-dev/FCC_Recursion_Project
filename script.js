@@ -4,7 +4,7 @@ const result = document.getElementById('result')
 
 const checkUserInput = () => {
     console.log(numberInput.value)
-    if (!numberInput.value || parseInt(numberInput.value)) {
+    if (!numberInput.value || isNaN(parseInt(numberInput.value)) || numberInput > 0) {
 
     }
 }
