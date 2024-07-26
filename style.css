@@ -8,8 +8,16 @@
 
 :root {
     --primary: rgb(99, 220, 220);
-
+    --secondary: rgb(69, 66, 236);
+    --tertiary: rgb(202, 253, 245);
 }
 body {
     background-color: var(--primary);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: var(--light-grey);
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
