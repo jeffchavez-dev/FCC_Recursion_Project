@@ -6,6 +6,4 @@ const checkUserInput = () => {
     console.log(numberInput.value)
 }
 
-convertBtn.addEventListener('click', () => {
-    checkUserInput()
-})
+convertBtn.addEventListener('click', checkUserInput)
