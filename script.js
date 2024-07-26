@@ -35,4 +35,8 @@ const decimalToBinary = (input) => {
         quotients.push(quotient);
         remainders.push(remainder);
     }
+
+    console.log("Inputs: ", inputs)
+    console.log("Quotients: ", quotients)
+    console.log("Remainders: ", remainders)
 }
