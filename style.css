@@ -16,7 +16,7 @@ body {
     background-color: var(--primary);
     font-family: "Times New Roman", Times, serif;
     font-size: 18px;
-    color: var(--light-grey);
+    color: var(--secondary);
     padding: 0 15px;
     display: flex;
     flex-direction: column;
@@ -40,7 +40,7 @@ h1 {
   }
   
   .convert-btn {
-    background-color: var(--orange);
+    background-color: var(--tertiary);
     cursor: pointer;
     border: none;
     padding: 4px;
@@ -57,7 +57,7 @@ h1 {
     min-height: 80px;
     word-break: break-word;
     padding: 15px;
-    border: 5px solid var(--orange);
+    border: 5px solid var(--tertiary);
     font-size: 2rem;
     text-align: center;
   }
@@ -70,7 +70,7 @@ h1 {
   .animation-frame {
     margin: 250px auto 0;
     padding: 15px 10px;
-    border: 5px solid var(--orange);
+    border: 5px solid var(--tertiary);
     font-size: 1.2rem;
     text-align: center;
   }
