@@ -6,7 +6,10 @@
     padding: 0;
 }
 
+:root {
+    --primary: rgb(99, 220, 220);
 
+}
 body {
- text-align: center;
+    background-color: var(--primary);
 }
