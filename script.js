@@ -6,20 +6,32 @@ const numberInput = document.getElementById('number-input')
 const convertBtn = document.getElementById('convert-btn')
 const result = document.getElementById('result')
 
-const countDownAndUp = (number) => {
-    console.log(number)
 
-    if (number === 0) {
-        console.log("Reached base case")
-        return
-    } else {
-        countDownAndUp(number - 1)
-        console.log(number)
+
+const decimalToBinary = (input) => {
+    if (input === 0) {
+        return "0";
+    }  else if (input === 1) {
+        return "1";
+    }   else {
+        return decimalToBinary(Math.floor(input / 2)) + (input % 2)
     }
+
+
+
+    // let binary = "";
+    // while (input > 0) {
+    //     binary = (input % 2) + binary;
+    //     input = Math.floor(input / 2);
+    // }
+    // return binary; // Handle the case where input is 0
+
+
+
 }
 
 
-countDownAndUp(20)
+
 
 const checkUserInput = () => {
     const numValue = parseInt(numberInput.value)
@@ -40,11 +52,3 @@ numberInput.addEventListener('keydown', (e) => {
     }
 })
 
-
-const decimalToBinary = (input) => {
-    if (input === 0) {
-        return "";
-    } else {
-        return decimalToBinary(Math.floor(input / 2)) + (input % 2)
-    }
-}
