@@ -48,4 +48,10 @@ const decimalToBinary = (input) => {
     // result.innerText = remainders.reverse().join('')
 
     let binary = "";
+
+    while (input > 0) {
+        input = Math.floor(input / 2)
+    }
+
+    result.innerText = binary
 }
