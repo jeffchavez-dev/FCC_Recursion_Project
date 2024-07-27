@@ -8,7 +8,7 @@ const b = () => {
 }
 
 const c = () => {
-    return "awesome"
+    return "awesome!"
 }
 
 
