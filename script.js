@@ -6,16 +6,20 @@ const numberInput = document.getElementById('number-input')
 const convertBtn = document.getElementById('convert-btn')
 const result = document.getElementById('result')
 
-const countdown = (number) => {
+const countDownAndUp = (number) => {
     console.log(number)
 
     if (number === 0) {
+        console.log("Reached base case")
         return
     } else {
-        countdown(number - 1)
+        countDownAndUp(number - 1)
+        console.log(number)
     }
 }
 
+
+countDownAndUp(20)
 
 const checkUserInput = () => {
     const numValue = parseInt(numberInput.value)
