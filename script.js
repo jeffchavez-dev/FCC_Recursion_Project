@@ -6,7 +6,13 @@ const numberInput = document.getElementById('number-input')
 const convertBtn = document.getElementById('convert-btn')
 const result = document.getElementById('result')
 
-
+const animationData = [
+    {
+        inputVal: 5,
+        marginTop: 300,
+        addElDelay: 1000,
+    }
+]
 
 const decimalToBinary = (input) => {
     if (input === 0 || input === 1) {
@@ -18,7 +24,6 @@ const decimalToBinary = (input) => {
 
 
 const showAnimation = () => {
-    
     setTimeout(() => {
         console.log("free")
     }, 500)
@@ -30,7 +35,6 @@ const showAnimation = () => {
     setTimeout(() => {
         console.log("Camp")
     }, 1500)
-    
 }
 
 const checkUserInput = () => {
