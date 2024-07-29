@@ -16,18 +16,6 @@ const decimalToBinary = (input) => {
     }   else {
         return decimalToBinary(Math.floor(input / 2)) + (input % 2)
     }
-
-
-
-    // let binary = "";
-    // while (input > 0) {
-    //     binary = (input % 2) + binary;
-    //     input = Math.floor(input / 2);
-    // }
-    // return binary; // Handle the case where input is 0
-
-
-
 }
 
 
