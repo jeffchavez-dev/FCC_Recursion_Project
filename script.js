@@ -58,9 +58,13 @@ const showAnimation = () => {
 
 
         setTimeout(() => {
-
+            document.getElementById(obj.inputVal).remove()
         }, obj.removeElDelay)
     });
+
+    setTimeout(() => {
+
+    },20000)
 }
 const checkUserInput = () => {
     const numValue = parseInt(numberInput.value)
