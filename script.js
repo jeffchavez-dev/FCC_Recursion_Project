@@ -29,7 +29,7 @@ const checkUserInput = () => {
     } 
     decimalToBinary(numValue)
 
-    if (parseInt(numberInput.value) === 5) {
+    if (numValue === 5) {
         showAnimation() 
         return
     }
