@@ -12,6 +12,7 @@ const animationData = [
         inputVal: 5,
         marginTop: 300,
         addElDelay: 1000,
+        msg: ""
     },
     {
         inputVal: 2,
