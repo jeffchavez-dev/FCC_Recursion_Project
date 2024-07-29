@@ -29,6 +29,9 @@ const animationData = [
         inputVal: 1,
         marginTop: -200,
         addElDelay: 2000,
+        msg: "decimalToBinary(5) returns '10' + 1 (5 % 2). Then it pops off the stack.",
+        showMsgDelay: 15000,
+        removeElDelay: 20000
     }
 ]
 
