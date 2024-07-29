@@ -22,7 +22,6 @@ const showAnimation = () => {
 }
 
 const checkUserInput = () => {
-    const inputInt = numberInput.value
     const numValue = parseInt(numberInput.value)
     if (!numberInput.value || isNaN(numValue) || numValue < 0) {
         alert("Please provide a decimal number greater than or equal to 0")
