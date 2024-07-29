@@ -17,7 +17,9 @@ const decimalToBinary = (input) => {
 }
 
 
+const showAnimation = () => {
 
+}
 
 const checkUserInput = () => {
     const numValue = parseInt(numberInput.value)
@@ -26,6 +28,10 @@ const checkUserInput = () => {
         return
     } 
     decimalToBinary(numValue)
+
+    if (parseInt(numberInput.value) === 5) {
+
+    }
     result.textContent = decimalToBinary()
     numberInput.value = "";
 }
